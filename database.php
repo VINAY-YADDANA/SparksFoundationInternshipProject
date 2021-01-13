@@ -8,7 +8,7 @@
       }
         echo "Connected successfully";
         $sql = "INSERT INTO users(name, email, balance)
-        VALUES ('KumarSai', 'kumarsai@example.com','150000')";
+        VALUES ('Vinay', 'Vinay@gmail.com','3200')";
         if ($conn->query($sql) === TRUE) {
             echo "New record created successfully";
           } else {
@@ -17,7 +17,7 @@
           
         
         $sql = "INSERT INTO users(name, email, balance)
-        VALUES ('Rakesh', 'rakesh@example.com','600000')";
+        VALUES ('Sasi', 'Sasi@gmail.com','11900')";
         if ($conn->query($sql) === TRUE) {
             echo "New record created successfully";
           } else {
@@ -26,7 +26,7 @@
           
         
         $sql = "INSERT INTO users(name, email, balance)
-        VALUES ('AmeerSultan', 'ameer@example.com','100000')";
+        VALUES ('Sowmya', 'Sowmya@gmail.com','24800')";
         if ($conn->query($sql) === TRUE) {
             echo "New record created successfully";
           } else {
@@ -35,7 +35,7 @@
           
         
         $sql = "INSERT INTO users(name, email, balance)
-        VALUES ('VictorPaul', 'victor@example.com','750000')";
+        VALUES 'Vardhini', 'Vardhini@gmail.com','45000')';
         if ($conn->query($sql) === TRUE) {
             echo "New record created successfully";
           } else {
@@ -44,7 +44,7 @@
           
         
         $sql = "INSERT INTO users(name, email, balance)
-        VALUES ('Rumaise', 'rumaise@example.com','1050000')";
+        VALUES ('Neha', 'Neha@gmail.com','55750')";
         if ($conn->query($sql) === TRUE) {
             echo "New record created successfully";
           } else {
@@ -53,7 +53,7 @@
           
         
         $sql = "INSERT INTO users(name, email, balance)
-        VALUES ('Varij', 'varij@example.com','50000')";
+        VALUES ('Raghava', 'Raghava@gmail.com','67500')";
         if ($conn->query($sql) === TRUE) {
             echo "New record created successfully";
           } else {
@@ -62,7 +62,7 @@
           
         
         $sql = "INSERT INTO users(name, email, balance)
-        VALUES ('Govardhan', 'govardhan@example.com','5150000')";
+        VALUES ('Raj', 'Raj@example.com','67500')";
         if ($conn->query($sql) === TRUE) {
             echo "New record created successfully";
           } else {
@@ -71,7 +71,7 @@
           
         
         $sql = "INSERT INTO users(name, email, balance)
-        VALUES ('Tijo', 'tijo@example.com','100000')";       
+        VALUES ('Veda', 'Veda@gmail.com','93000')";       
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
   } else {
